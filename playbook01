@@ -1,0 +1,8 @@
+- name: Test playbook
+  hosts: rndm-srvr-01
+  vars: 
+    ansible_connection: local
+    container: adbhoney
+  tasks:
+    - name: Test task 01
+    
