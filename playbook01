@@ -2,7 +2,7 @@
   hosts: rndm-srvr-01
   vars: 
     ansible_connection: local
-    container: adbhoney
+    container: adbhoney,citrixhoneypot
   tasks:
     - name: Test task 01
     
